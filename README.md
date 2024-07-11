@@ -9,6 +9,8 @@ Official repository for the paper "[MAVIS: Mathematical Visual Instruction Tunin
 
 [[📖 Paper]()] [[🤗 MAVIS-Caption]()] [[🤗 MAVIS-Instruct]()] [[🏆 Leaderboard](https://mathverse-cuhk.github.io/#leaderboard)]
 
+🌟 Our model is mainly evaluation on [MathVerse](https://mathverse-cuhk.github.io/), a comprehensive visual mathematical benchmark for MLLMs
+
 ## 💥 News
 
 - **[2024.07.11]** 🚀 We release the **MAVIS** to facilitate visual mathematical capabilities 📐
@@ -58,7 +60,7 @@ Official repository for the paper "[MAVIS: Mathematical Visual Instruction Tunin
 Explore our additional research on **Vision-Language Large Models**, focusing on multi-modal LLMs and mathematical reasoning:
 
 - **[MathVerse]** [MathVerse: Does Your Multi-modal LLM Truly See the Diagrams in Visual Math Problems?](https://mathverse-cuhk.github.io/)
-- **[LLaVA-NeXT-Interleave]** [LLaVA-NeXT-Interleave: Tackling Multi-image, Video, and 3D in Large Multimodal Models](https://llava-vl.github.io/blog/2024-06-16-llava-next-interleave/)
+- **[LLaVA-NeXT-Interleave]** [Tackling Multi-image, Video, and 3D in Large Multimodal Models](https://llava-vl.github.io/blog/2024-06-16-llava-next-interleave/)
 - **[MathVista]** [MathVista: Evaluating Mathematical Reasoning of Foundation Models in Visual Contexts](https://github.com/lupantech/MathVista)
 - **[LLaMA-Adapter]** [LLaMA-Adapter: Efficient Fine-tuning of Language Models with Zero-init Attention](https://github.com/OpenGVLab/LLaMA-Adapter)
 - **[ImageBind-LLM]** [Imagebind-LLM: Multi-modality Instruction Tuning](https://github.com/OpenGVLab/LLaMA-Adapter/tree/main/imagebind_LLM)
