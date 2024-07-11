@@ -21,8 +21,50 @@ Official repository for the paper "[MAVIS: Mathematical Visual Instruction Tunin
 
 ## 👀 About MAVIS
 
-The capabilities of **Multi-modal Large Language Models (MLLMs)** in **visual math problem-solving** remain insufficiently evaluated and understood. We investigate current benchmarks to incorporate excessive visual content within textual questions, which potentially assist MLLMs in deducing answers without truly interpreting the input diagrams.
+  We identify three key areas within **Multi-modal Large Language Models (MLLMs)** for **visual math problem-solving** that need to be improved: *visual encoding of math diagrams*, *diagram-language alignment*, and *mathematical reasoning skills*.
+  
+  In this paper, we propose **MAVIS**, the first **MA**thematical **VIS**ual instruction tuning paradigm for MLLMs, including two newly curated datasets, a mathematical vision encoder, and a mathematical MLLM:
+- **MAVIS-Caption**: 588K high-quality caption-diagram pairs, spanning geometry and function
 
 <p align="center">
-    <img src="figs/fig1.png" width="90%"> <br>
+    <img src="figs/fig1.jpg" width="70%"> <br>
 </p>
+
+- **MAVIS-Instruct**: 834K instruction-tuning data with CoT rationales in a text-lite version
+  
+<p align="center">
+    <img src="figs/fig2.jpg" width="70%"> <br>
+</p>
+
+- **Math-CLIP**: a vision encoder specifically for understanding mathematical diagrams within MLLMs
+
+<p align="center">
+    <img src="figs/fig3.jpg" width="50%"> <br>
+</p>
+
+- **MAVIS-7B**: an MLLM achiving leading performance on MathVerse benchmark
+
+ <p align="center">
+    <img src="figs/fig4.jpg" width="90%"> <br>
+</p>
+
+## Get Started
+### Data Usage
+### Training
+### Inference
+
+## 🧠 Related Work
+
+Explore our additional research on **Vision-Language Large Models**, focusing on multi-modal LLMs and mathematical reasoning:
+
+- **[MathVerse]** [MathVerse: Does Your Multi-modal LLM Truly See the Diagrams in Visual Math Problems?](https://mathverse-cuhk.github.io/)
+- **[LLaVA-NeXT-Interleave]** [LLaVA-NeXT-Interleave: Tackling Multi-image, Video, and 3D in Large Multimodal Models](https://llava-vl.github.io/blog/2024-06-16-llava-next-interleave/)
+- **[MathVista]** [MathVista: Evaluating Mathematical Reasoning of Foundation Models in Visual Contexts](https://github.com/lupantech/MathVista)
+- **[LLaMA-Adapter]** [LLaMA-Adapter: Efficient Fine-tuning of Language Models with Zero-init Attention](https://github.com/OpenGVLab/LLaMA-Adapter)
+- **[ImageBind-LLM]** [Imagebind-LLM: Multi-modality Instruction Tuning](https://github.com/OpenGVLab/LLaMA-Adapter/tree/main/imagebind_LLM)
+- **[SPHINX-X]** [Scaling Data and Parameters for a Family of Multi-modal Large Language Models](https://github.com/Alpha-VLLM/LLaMA2-Accessory/tree/main/SPHINX)
+- **[Point-Bind & Point-LLM]** [Multi-modality 3D Understanding, Generation, and Instruction Following](https://github.com/ZiyuGuo99/Point-Bind_Point-LLM)
+- **[PerSAM]** [Personalize segment anything model with one shot](https://github.com/ZrrSkywalker/Personalize-SAM)
+- **[MathCoder]** [MathCoder: Seamless Code Integration in LLMs for Enhanced Mathematical Reasoning](https://github.com/mathllm/MathCoder)
+- **[MathVision]** [Measuring Multimodal Mathematical Reasoning with the MATH-Vision Dataset](https://github.com/mathvision-cuhk/MathVision)
+- **[CSV]** [Solving Challenging Math Word Problems Using GPT-4 Code Interpreter](https://wangk.org/publications/1_iclr2024_csv/)
