@@ -7,7 +7,7 @@
 
 Official repository for the paper "[MAVIS: Mathematical Visual Instruction Tuning](https://arxiv.org/pdf/2407.08739)".
 
-[[📖 Paper](https://arxiv.org/pdf/2407.08739)] [[🤗 MAVIS-Caption](https://huggingface.co/datasets/CaraJ/MAVIS-Caption)] [[🤗 MAVIS-Instruct](https://huggingface.co/datasets/CaraJ/MAVIS-Instruct)] [[🏆 Leaderboard](https://mathverse-cuhk.github.io/#leaderboard)]
+[[📖 Paper](https://arxiv.org/pdf/2407.08739)] [[🤗 MAVIS-Caption](https://huggingface.co/datasets/MAVIS-MATH/MAVIS-Caption)] [[🤗 MAVIS-Instruct](https://huggingface.co/datasets/MAVIS-MATH/MAVIS-Instruct)] [[🏆 Leaderboard](https://mathverse-cuhk.github.io/#leaderboard)]
 
 🌟 Our model is mainly evaluation on [MathVerse](https://mathverse-cuhk.github.io/), a comprehensive visual mathematical benchmark for MLLMs
 
@@ -55,6 +55,23 @@ Coming in a week!
 ### Data Usage
 ### Training
 ### Inference
+
+
+## :white_check_mark: Citation
+
+If you find **MAVIS** useful for your research and applications, please kindly cite using this BibTeX:
+
+```latex
+@misc{zhang2024mavismathematicalvisualinstruction,
+      title={MAVIS: Mathematical Visual Instruction Tuning}, 
+      author={Renrui Zhang and Xinyu Wei and Dongzhi Jiang and Yichi Zhang and Ziyu Guo and Chengzhuo Tong and Jiaming Liu and Aojun Zhou and Bin Wei and Shanghang Zhang and Peng Gao and Hongsheng Li},
+      year={2024},
+      eprint={2407.08739},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2407.08739}, 
+}
+```
 
 ## 🧠 Related Work
 
