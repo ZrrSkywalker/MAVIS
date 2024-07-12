@@ -50,7 +50,7 @@ Official repository for the paper "[MAVIS: Mathematical Visual Instruction Tunin
     <img src="figs/fig4.jpg" width="90%"> <br>
 </p>
 
-## Get Started
+## 💪 Get Started
 Coming in a week!
 ### Data Usage
 ### Training
