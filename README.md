@@ -5,9 +5,9 @@
 ![Multi-Modal](https://img.shields.io/badge/Task-Multi--Modal-red) 
 
 
-Official repository for the paper "[MAVIS: Mathematical Visual Instruction Tuning]()".
+Official repository for the paper "[MAVIS: Mathematical Visual Instruction Tuning](https://arxiv.org/pdf/2407.08739)".
 
-[[📖 Paper]()] [[🤗 MAVIS-Caption]()] [[🤗 MAVIS-Instruct]()] [[🏆 Leaderboard](https://mathverse-cuhk.github.io/#leaderboard)]
+[[📖 Paper](https://arxiv.org/pdf/2407.08739)] [[🤗 MAVIS-Caption](https://huggingface.co/datasets/CaraJ/MAVIS-Caption)] [[🤗 MAVIS-Instruct](https://huggingface.co/datasets/CaraJ/MAVIS-Instruct)] [[🏆 Leaderboard](https://mathverse-cuhk.github.io/#leaderboard)]
 
 🌟 Our model is mainly evaluation on [MathVerse](https://mathverse-cuhk.github.io/), a comprehensive visual mathematical benchmark for MLLMs
 
