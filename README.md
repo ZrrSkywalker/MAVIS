@@ -13,7 +13,7 @@ Official repository for the paper "[MAVIS: Mathematical Visual Instruction Tunin
 
 ## 💥 News
 
-- **[2024.07.11]** 🚀 We release the **MAVIS** to facilitate visual mathematical capabilities 📐
+- **[2024.07.11]** 🚀 We release **MAVIS** to facilitate MLLM's visual mathematical capabilities 📐
 - **[2024.07.01]** 🎉 MathVerse is accepted by ECCV 2024 🎉
 - **[2024.03.22]** 🔥 We release the **MathVerse benchmark** ([🌐 Webpage](https://mathverse-cuhk.github.io/), [📑 Paper](https://arxiv.org/pdf/2403.14624), and [🤗 Dataset](https://huggingface.co/datasets/AI4Math/MathVerse))
 
@@ -26,13 +26,13 @@ Official repository for the paper "[MAVIS: Mathematical Visual Instruction Tunin
   We identify three key areas within **Multi-modal Large Language Models (MLLMs)** for **visual math problem-solving** that need to be improved: *visual encoding of math diagrams*, *diagram-language alignment*, and *mathematical reasoning skills*.
   
   In this paper, we propose **MAVIS**, the first **MA**thematical **VIS**ual instruction tuning paradigm for MLLMs, including two newly curated datasets, a mathematical vision encoder, and a mathematical MLLM:
-- **MAVIS-Caption**: 588K high-quality caption-diagram pairs, spanning geometry and function
+- **MAVIS-Caption**: ***588K*** high-quality caption-diagram pairs, spanning geometry and function
 
 <p align="center">
     <img src="figs/fig1.jpg" width="70%"> <br>
 </p>
 
-- **MAVIS-Instruct**: 834K instruction-tuning data with CoT rationales in a text-lite version
+- **MAVIS-Instruct**: ***834K*** instruction-tuning data with CoT rationales in a text-lite version
   
 <p align="center">
     <img src="figs/fig2.jpg" width="70%"> <br>
@@ -44,13 +44,14 @@ Official repository for the paper "[MAVIS: Mathematical Visual Instruction Tunin
     <img src="figs/fig3.jpg" width="50%"> <br>
 </p>
 
-- **MAVIS-7B**: an MLLM achiving leading performance on MathVerse benchmark
+- **MAVIS-7B**: an MLLM with a three-stage training paradigm achiving leading performance on MathVerse benchmark
 
  <p align="center">
     <img src="figs/fig4.jpg" width="90%"> <br>
 </p>
 
 ## Get Started
+Coming in a week!
 ### Data Usage
 ### Training
 ### Inference
