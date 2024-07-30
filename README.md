@@ -12,7 +12,7 @@ Official repository for the paper "[MAVIS: Mathematical Visual Instruction Tunin
 🌟 Our model is mainly evaluation on [MathVerse](https://mathverse-cuhk.github.io/), a comprehensive visual mathematical benchmark for MLLMs
 
 ## 💥 News
-
+- **[2024.07.30]** We release the temporal version for MAVIS-Caption & Instruct in [Google Drive](https://drive.google.com/drive/folders/1LGd2JCVHi1Y6IQ7l-5erZ4QRGC4L7Nol)
 - **[2024.07.11]** 🚀 We release **MAVIS** to facilitate MLLM's visual mathematical capabilities 📐
 - **[2024.07.01]** 🎉 MathVerse is accepted by ECCV 2024 🎉
 - **[2024.03.22]** 🔥 We release the **MathVerse benchmark** ([🌐 Webpage](https://mathverse-cuhk.github.io/), [📑 Paper](https://arxiv.org/pdf/2403.14624), and [🤗 Dataset](https://huggingface.co/datasets/AI4Math/MathVerse))
@@ -53,6 +53,9 @@ Official repository for the paper "[MAVIS: Mathematical Visual Instruction Tunin
 ## 💪 Get Started
 Coming in a week!
 ### Data Usage
+The temporal data version is released in [Google Drive](https://drive.google.com/drive/folders/1LGd2JCVHi1Y6IQ7l-5erZ4QRGC4L7Nol).
+
+We will soon release the final data with much higher-quality.
 ### Training
 ### Inference
 
