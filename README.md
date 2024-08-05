@@ -12,7 +12,7 @@ Official repository for the paper "[MAVIS: Mathematical Visual Instruction Tunin
 🌟 Our model is mainly evaluation on [MathVerse](https://mathverse-cuhk.github.io/), a comprehensive visual mathematical benchmark for MLLMs
 
 ## 💥 News
-- **[2024.07.30]** The new official LLaVA model, [LLaVA-OneVision](https://llava-vl.github.io/blog/2024-08-05-llava-onevision/), utilize MAVIS as training data, achieving new SoTA on [MathVerse](https://mathverse-cuhk.github.io/) and [MathVista](https://github.com/lupantech/MathVista) benchmarks.
+- **[2024.07.30]** The new official LLaVA model, [LLaVA-OneVision](https://llava-vl.github.io/blog/2024-08-05-llava-onevision/), adopt **MAVIS-Insruct** as training data 🔥, achieving new SoTA on [MathVerse](https://mathverse-cuhk.github.io/) and [MathVista](https://github.com/lupantech/MathVista) benchmarks.
 - **[2024.07.30]** We release the temporal version for MAVIS-Caption & Instruct in [Google Drive](https://drive.google.com/drive/folders/1LGd2JCVHi1Y6IQ7l-5erZ4QRGC4L7Nol)
 - **[2024.07.11]** 🚀 We release **MAVIS** to facilitate MLLM's visual mathematical capabilities 📐
 - **[2024.07.01]** 🎉 MathVerse is accepted by ECCV 2024 🎉
