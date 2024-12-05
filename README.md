@@ -7,13 +7,13 @@
 
 Official repository for the paper "[MAVIS: Mathematical Visual Instruction Tuning](https://arxiv.org/pdf/2407.08739)".
 
-[[📖 Paper](https://arxiv.org/pdf/2407.08739)] [[🤗 MAVIS-Caption](https://huggingface.co/datasets/MAVIS-MATH/MAVIS-Caption)] [[🤗 MAVIS-Instruct](https://huggingface.co/datasets/MAVIS-MATH/MAVIS-Instruct)] [[🏆 Leaderboard](https://mathverse-cuhk.github.io/#leaderboard)]
+[[📖 Paper](https://arxiv.org/pdf/2407.08739)] [[🤗 MAVIS-Instruct-Geometry](https://huggingface.co/datasets/CaraJ/MAVIS-Geometry)] [[🤗 MAVIS-Instruct-Function](https://huggingface.co/datasets/CaraJ/MAVIS-Function)] [[🏆 Leaderboard](https://mathverse-cuhk.github.io/#leaderboard)]
 
 🌟 Our model is mainly evaluation on [MathVerse](https://mathverse-cuhk.github.io/), a comprehensive visual mathematical benchmark for MLLMs
 
 ## 💥 News
+- **[2024.12.04]** We open-source partial data of [MAVIS-Instruct-Geometry](https://huggingface.co/datasets/CaraJ/MAVIS-Geometry) and [MAVIS-Instruct-Function](https://huggingface.co/datasets/CaraJ/MAVIS-Function).
 - **[2024.08.05]** The new official LLaVA model, [LLaVA-OneVision](https://llava-vl.github.io/blog/2024-08-05-llava-onevision/), adopt **MAVIS-Insruct** as training data 🔥, achieving new SoTA on [MathVerse](https://mathverse-cuhk.github.io/) and [MathVista](https://github.com/lupantech/MathVista) benchmarks.
-- **[2024.07.30]** We release the temporal version for MAVIS-Caption & Instruct in [Google Drive](https://drive.google.com/drive/folders/1LGd2JCVHi1Y6IQ7l-5erZ4QRGC4L7Nol)
 - **[2024.07.11]** 🚀 We release **MAVIS** to facilitate MLLM's visual mathematical capabilities 📐
 - **[2024.07.01]** 🎉 MathVerse is accepted by ECCV 2024 🎉
 - **[2024.03.22]** 🔥 We release the **MathVerse benchmark** ([🌐 Webpage](https://mathverse-cuhk.github.io/), [📑 Paper](https://arxiv.org/pdf/2403.14624), and [🤗 Dataset](https://huggingface.co/datasets/AI4Math/MathVerse))
